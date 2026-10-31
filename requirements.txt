@@ -1,0 +1,24 @@
+# Single environment: SDXL + ControlNet + Hunyuan3D/TripoSR + Gradio.
+# Install PyTorch with CUDA first (see scripts/setup.sh or the Kaggle notebook).
+
+numpy>=1.24,<3
+opencv-python>=4.8
+Pillow>=10.0
+trimesh>=4.0
+pyglet>=2.0
+gradio>=4.44.0,<5
+diffusers>=0.30.0,<0.33
+transformers>=4.38,<4.46
+accelerate>=0.27
+safetensors>=0.4
+huggingface_hub>=0.23,<1.0
+rembg>=2.0
+onnxruntime>=1.17
+pooch>=1.8
+tqdm>=4.66
+imageio>=2.34
+einops>=0.7
+omegaconf>=2.3
+xatlas>=0.0.9
+scipy>=1.10
+ninja>=1.11
